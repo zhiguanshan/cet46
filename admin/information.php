@@ -7,7 +7,7 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<title>统一考试报名系统</title>
+		<title>英语四六级考试管理系统</title>
 		<meta http-equiv="content-type" charset="utf-8" />
 		<link rel="stylesheet" href="../css/muban.css"/>
 		<link rel="stylesheet" href="css/login_in.css"/>
@@ -16,7 +16,7 @@
 		<div class="header">
 			<div class="nav">
 				<ul>
-					<li id="log"><a href="login.html">统一考试报名系统</a></li>
+					<li id="log"><b href="login.html">英语四六级考试管理系统</b></li>
 					<li id="item"><a href="login.html">首页</a></li>
 					<li id="item"><a href="exam_infor1.php">考试信息</a></li>
 					<li id="item"><a href="../news_index.html">新闻公告</a></li>

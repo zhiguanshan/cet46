@@ -18,7 +18,7 @@
 					<li id="log"><b>英语四六级考试管理系统</b></li>
 					<li id="item"><a href="admin_login.html">首页</a></li>
 					<li id="item"><a href="exam.php">考试信息</a></li>
-					<li id="item"><a href="../news_index.html">新闻公告</a></li>
+					<li id="item"><a href="../index.php">考试公告</a></li>
 					<li id="item"><a href="../non-ess/contract.html">联系我们</a></li>
 				</ul>
 			</div>
