@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" charset="utf-8" />
+		<link rel="stylesheet" href="../css/login.css" />
+		<title>英语四六级考试管理系统</title>
+	</head>
+	<body background="../img/body_bg.jpg">
+		<header class="header">
+			<div class="nav">
+				<ul>
+					<li id="log"><b>英语四六级考试管理系统</b></li>
+					<li id="item"><a href="login.html">首页</a></li>
+					<li id="item"><a href="exam.php">考试信息</a></li>
+					<li id="item"><a href="../index.html">考试公告</a></li>
+					<li id="item"><a href="../non-ess/contract.html">联系我们</a></li>
+				</ul>
+			</div>
+		</header>
+		<form  style="padding: 10px;" id="form_1" action="login.php" method="post">
+			<div>
+				<center>
+					<h1><b>登&nbsp;&nbsp;录</b></h1>
+				</center>
+				<div class="input-group">
+					<center>学&nbsp;&nbsp;&nbsp;&nbsp;号&nbsp;<input id="infor" type="text" name="XH" placeholder="必填，学号(用户名)"/><br /></center><br />
+				</div>
+				<div class="input-group">
+					<center>
+						密&nbsp;&nbsp;&nbsp;&nbsp;码&nbsp;<input id="infor" type="password"  name="passwd_1" id="passwd_1" placeholder="密码(不得少于6位)" "/><br />
+					</center><br />
+				</div>
+			<center>
+				<div class="button-container">
+					<input class="button submit" name="submit" type="submit" value="登录"/>
+					<a href="regist.html"><input class="button cancle" name="reg" type="button" value="注册"/></a>
+				</div>
+			</center>
+			<div style="margin-right:60px;margin-top:10px;float: right;font-size: 10px;"><a href="admin_login.html">管理员登陆</a></div>
+			</div>
+		</form>
+	</body>
+</html>

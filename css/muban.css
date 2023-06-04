@@ -1,0 +1,74 @@
+@font-face {
+	font-family:xingkai;
+	src: url('../font/STXINGKA.TTF');
+}
+@font-face {
+	font-family:shoujin;
+	src: url('../font/FZZhaoJSJSJF.TTF');
+}
+
+
+body{
+	margin: auto;
+}
+
+.header{
+	margin: 0;
+	height: 80px;
+	width: 100%;
+	background-color: #495040;
+}
+
+.nav{
+	width: 1200px;
+	height: 30px;
+	margin: auto;
+}
+
+
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.header li{
+	display: inline;
+	height: 80px;
+}
+
+.header b{
+	display: block;
+	padding:0 15px;
+	float: left;
+	height: 40px;
+	width: 500px;
+	color: #aab6bb;	
+	text-decoration:none;
+	line-height: 80px;
+	text-align: center;
+}
+
+.header a{
+	display: block;
+	padding:0 15px;
+	float:left;
+	height: 30px;
+	width: 120px;
+	color: #aabbb6;	
+	text-decoration: none;
+	line-height: 80px;
+	text-align: center;
+}
+
+#log {
+	font-family: shoujin;
+	font-size: 30px;
+}
+
+#item a:hover{
+	color: #aab6bb;
+	font-size: 30px;
+}
+

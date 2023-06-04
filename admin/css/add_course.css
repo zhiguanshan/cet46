@@ -1,0 +1,18 @@
+#xx{
+	width: 400px;
+	height: 400px;
+	background-color: #FAEBD7;
+	margin: 80px auto;
+	border-radius:30px;
+	padding: 10px;
+}
+
+#del_course{
+	width: 400px;
+	height: 200px;
+	margin: 80px auto;
+	background-color: #FAEBD7;
+	border-radius: 30px;
+	padding: 10px;
+}
+
