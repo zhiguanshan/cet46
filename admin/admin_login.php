@@ -22,7 +22,7 @@
 		if($ist=='0'){
 			header("Location:managers/managers.php");}
 		else{
-			header("Location:managers/tescher.php");
+			header("Location:managers/teschers.php");
 		}
 	}
 	else{
