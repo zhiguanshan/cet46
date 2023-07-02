@@ -22,7 +22,7 @@
 		if($ist=='0'){
 			header("Location:managers/managers.php");}
 		else{
-			header("Location:managers/teschers.php");
+			header("Location:managers/teachers.php");
 		}
 	}
 	else{
