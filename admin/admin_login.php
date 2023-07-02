@@ -15,8 +15,15 @@
 		@session_start();
 		$row=$result->fetch_assoc();
 		$admin_name=$row["admin_name"];
+		$ist=$row["isteacher"];
 		$_SESSION['name']=$admin_name;
-		header("Location:admin.php");
+		$_SESSION['admin_id']=$username;
+		$_SESSION['is_teac']=$ist;
+		if($ist=='0'){
+			header("Location:managers/managers.php");}
+		else{
+			header("Location:managers/teschers.php");
+		}
 	}
 	else{
 		echo "<script>alert('账户或密码错误'+$username)</script>";

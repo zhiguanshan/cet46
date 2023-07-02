@@ -17,22 +17,23 @@ input{
 }
 
 #log{
-	font-family: xingkai;
-	font-size: 20px;
+	font-family: shoujin;
+	font-size: 30px;
 }
 
 .header{
 	margin: 0;
-	height: 45px;
+	height: 80px;
 	width: 100%;
-	background-color: #0b496c;
+	background-color: #495040;
 }
 
 .nav{
-	width: 1000px;	
-	height: 25px;
+	width: 1200px;
+	height: 30px;
 	margin: auto;
 }
+
 
 ul{
 	list-style: none;
@@ -40,28 +41,38 @@ ul{
 	padding: 0;
 }
 
-
 .header li{
 	display: inline;
+	height: 80px;
 }
 
 .header a{
 	display: block;
 	padding:0 15px;
-	float: left;
-	height: 45px;
-	width: 170px;
-	color: #6b8798;	
+	float:left;
+	height: 30px;
+	width: 120px;
+	color: #aabbb6;	
 	text-decoration: none;
-	line-height: 45px;
+	line-height: 80px;
 	text-align: center;
-	
 }
 
 #item a:hover{
-	background-color: green;
-	color: lightskyblue;
-	font-size: 15px;
+	color: #aab6bb;
+	font-size: 30px;
+}
+
+.header b{
+	display: block;
+	padding:0 15px;
+	float: left;
+	height: 40px;
+	width: 500px;
+	color: #aab6bb;	
+	text-decoration:none;
+	line-height: 80px;
+	text-align: center;
 }
 
 .main{
@@ -75,5 +86,5 @@ ul{
 }
 
 .main h1{
-	font-family: xingkai;
+	font-family: shoujin;
 }

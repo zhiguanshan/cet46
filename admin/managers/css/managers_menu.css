@@ -1,0 +1,176 @@
+/*左侧菜单*/
+
+.left{
+	width: 200px;
+	height: 800px;
+	background-color: #1c2b36;
+	float: left;
+}
+
+.right{
+	width: 1033px;
+	float: left;
+}
+
+#content {
+    width: 1033px;
+    margin-left: 200px;
+}
+
+#table{
+	margin-left:66px;
+	margin-top: 100px;
+}
+
+.left-first{
+	width: 200px;
+	height: 183px;
+}
+
+.left-first-img{
+	width: 170px;
+	height: 153px;
+	padding: 15px;
+}
+
+.photo{
+	width: 96px;
+	height: 96px;
+	border-radius: 500px;
+	margin: auto;
+}
+
+.photo img{
+	width: 100%;
+	border-radius: 500px;
+}
+
+
+.clear{
+	margin: auto;
+	display: block;
+	overflow: hidden;
+	width: 170px;
+	height: 47px;
+}
+
+.block{
+	display: block;
+}
+
+.m-t-sm{
+	margin-top: 10px;
+}
+
+.font-bold{
+	display: block;
+	font-size: 14px;
+	font-weight: 700px;
+	color: #bfd1de;
+}
+
+.text-lt{
+	text-align: center;
+}
+
+.text-xs{
+	font-size: 12px;
+	text-align: center;
+}
+
+.text-muted{
+	color: #507b9b;
+}
+
+
+#ng-scope{
+	margin-top: 15px;
+	width: 200px;
+	height: 100vh;
+}
+
+#ng-scope li{
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+}
+
+#ng-scope li:hover{
+	background-color:#0B496C;	
+	opacity: 0.6;
+	color: antiquewhite;
+}
+
+.ng-list{
+	display: block;
+    color: #8dadc4;
+}
+
+.ng-sublist{
+    display: none;
+    margin-left: 30px;
+}
+
+.ng-list a{
+	text-decoration: none;
+	color: #8dadc4;
+}
+
+.ng-list:hover .ng-sublist{
+	display: block;
+}
+
+#infor{
+	display: block;
+	margin: 50px auto;
+	width: 400px;
+	height: 400px;
+	border-radius:10px ;
+	background-color: #FAEBD7;
+}
+
+/*内容*/
+#content{
+    margin-left: 200px;
+}
+
+#exam-now{
+    display: block;
+}
+
+#exam-past{
+    display: none;
+}
+
+#student-manage{
+    display: none;
+}
+
+#my-info{
+    display: none;
+}
+
+#exam-add{
+    display: none;
+}
+
+.search-box {
+    width: 300px;
+    height: 40px;
+}
+
+#xx{
+	width: 400px;
+	height: 400px;
+	background-color: #FAEBD7;
+	margin: 0px auto;
+	border-radius:30px;
+	padding: 10px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	
+}
